@@ -21,7 +21,11 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    background: COLORS.secondary,
+    /* Minimalist, align center, dark overlay for readability */
+    background: `
+      linear-gradient(rgba(34,34,34,0.76), rgba(34,34,34,0.76)), 
+      url(${BG_IMG}) center center / cover no-repeat
+    `,
     color: COLORS.primary,
     flexDirection: 'column',
     fontFamily: "'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif"
