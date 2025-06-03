@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import BG_IMG from './assets/bg-screenshot.png';
 // PUBLIC_INTERFACE
 /**
  * Minimalist TicTacToe AI Challenge Main Container
